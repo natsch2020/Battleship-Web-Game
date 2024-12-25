@@ -1,9 +1,9 @@
 import Phaser from 'phaser';
-import './style.css'
+import '/style.css';
 
 const sizes = {
-    width: 800,
-    height: 600
+    width: 500,
+    height: 500
 }
 
 const config = {
