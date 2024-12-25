@@ -1,14 +1,21 @@
 import Phaser from 'phaser';
+import './style.css'
+
+const sizes = {
+    width: 800,
+    height: 600
+}
 
 const config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: {
-      preload: preload,
-      create: create,
-      update: update
-    }
+    type: Phaser.WEBGL,
+    width: sizes.width,
+    height: sizes.height,
+    canvas: gameCanvas,
+    // scene: {
+    //   preload: preload,
+    //   create: create,
+    //   update: update
+    // }
 };
 const game = new Phaser.Game(config);
   
